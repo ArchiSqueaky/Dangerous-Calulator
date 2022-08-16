@@ -14,7 +14,7 @@ myArray.map( links => {
                 window.location.href = 'https://holyclient.xyz/';
                 break
             case 'About us':
-                window.location.href = 'https://holyclient.xyz/About-us';
+                window.location.href = 'https://holyclient.xyz/about-us';
                 break
             default:
                 window.location.href = 'https://holyclient.xyz/' + e.target.innerText;
