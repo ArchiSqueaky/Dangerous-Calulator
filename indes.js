@@ -11,13 +11,13 @@ myArray.map( links => {
     links.addEventListener('click', (e) => {
         switch(e.target.innerText) {
             case 'Home':
-                window.location.href = 'index.html';
+                window.location.href = 'https://holyclient.xyz/';
                 break
             case 'About us':
-                window.location.href = 'about-us.html';
+                window.location.href = 'https://holyclient.xyz/About-us';
                 break
             default:
-                window.location.href = 'http://127.0.0.1:5500/' + e.target.innerText + '.html';
+                window.location.href = 'https://holyclient.xyz/' + e.target.innerText;
         }
     })
 })
