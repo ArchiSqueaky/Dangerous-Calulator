@@ -2,6 +2,11 @@ let hamburgerMenu = document.getElementById('popout');
 let hamburgerButton = document.getElementById('hamburger');
 
 hamburgerButton.addEventListener('click', () => {
-    hamburgerMenu.classList.toggle('show');
-    console.log('Hello World');
+    if (hamburgerButton.innerHTML === 'menu') {
+        hamburgerButton.innerHTML = 'close';
+        hamburgerMenu.className = 'show';
+    } else {
+        hamburgerButton.innerHTML = 'menu';
+        hamburgerMenu.className = '';
+    }
 })
